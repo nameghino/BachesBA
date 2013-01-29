@@ -16,6 +16,16 @@
 		355C770716B81A900098AE06 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 355C770616B81A900098AE06 /* Default.png */; };
 		355C770916B81A900098AE06 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 355C770816B81A900098AE06 /* Default@2x.png */; };
 		355C770B16B81A900098AE06 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 355C770A16B81A900098AE06 /* Default-568h@2x.png */; };
+		355C771E16B81B380098AE06 /* BacheMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C771D16B81B380098AE06 /* BacheMapViewController.m */; };
+		355C772116B8252A0098AE06 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355C772016B8252A0098AE06 /* MapKit.framework */; };
+		355C772316B825310098AE06 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355C772216B825310098AE06 /* CoreLocation.framework */; };
+		355C772616B829840098AE06 /* NAJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C772516B829840098AE06 /* NAJSONRequestOperation.m */; };
+		355C772916B830430098AE06 /* Bump.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C772816B830430098AE06 /* Bump.m */; };
+		355F9AE916B8525C00F84A9F /* AddBumpFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355F9AE816B8525C00F84A9F /* AddBumpFormViewController.m */; };
+		355F9AEB16B852B700F84A9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355F9AEA16B852B700F84A9F /* SystemConfiguration.framework */; };
+		355F9AED16B852BD00F84A9F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355F9AEC16B852BC00F84A9F /* MobileCoreServices.framework */; };
+		355F9AF016B8546700F84A9F /* BachesBAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 355F9AEF16B8546700F84A9F /* BachesBAClient.m */; };
+		6F7CEFA687F44A2F948F3BA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E73861380D4B8492387B6D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,22 @@
 		355C770616B81A900098AE06 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		355C770816B81A900098AE06 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		355C770A16B81A900098AE06 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		355C771C16B81B380098AE06 /* BacheMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BacheMapViewController.h; sourceTree = "<group>"; };
+		355C771D16B81B380098AE06 /* BacheMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BacheMapViewController.m; sourceTree = "<group>"; };
+		355C772016B8252A0098AE06 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		355C772216B825310098AE06 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		355C772416B829840098AE06 /* NAJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAJSONRequestOperation.h; sourceTree = "<group>"; };
+		355C772516B829840098AE06 /* NAJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAJSONRequestOperation.m; sourceTree = "<group>"; };
+		355C772716B830430098AE06 /* Bump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bump.h; sourceTree = "<group>"; };
+		355C772816B830430098AE06 /* Bump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bump.m; sourceTree = "<group>"; };
+		355F9AE716B8525C00F84A9F /* AddBumpFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBumpFormViewController.h; sourceTree = "<group>"; };
+		355F9AE816B8525C00F84A9F /* AddBumpFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBumpFormViewController.m; sourceTree = "<group>"; };
+		355F9AEA16B852B700F84A9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		355F9AEC16B852BC00F84A9F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		355F9AEE16B8546700F84A9F /* BachesBAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BachesBAClient.h; sourceTree = "<group>"; };
+		355F9AEF16B8546700F84A9F /* BachesBAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BachesBAClient.m; sourceTree = "<group>"; };
+		67E73861380D4B8492387B6D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE7F90A9BF34783B59ED2ED /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +65,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355F9AED16B852BD00F84A9F /* MobileCoreServices.framework in Frameworks */,
+				355F9AEB16B852B700F84A9F /* SystemConfiguration.framework in Frameworks */,
+				355C772316B825310098AE06 /* CoreLocation.framework in Frameworks */,
+				355C772116B8252A0098AE06 /* MapKit.framework in Frameworks */,
 				355C76F516B81A900098AE06 /* UIKit.framework in Frameworks */,
 				355C76F716B81A900098AE06 /* Foundation.framework in Frameworks */,
 				355C76F916B81A900098AE06 /* CoreGraphics.framework in Frameworks */,
+				6F7CEFA687F44A2F948F3BA8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +85,7 @@
 				355C76FA16B81A900098AE06 /* BachesBA */,
 				355C76F316B81A8F0098AE06 /* Frameworks */,
 				355C76F116B81A8F0098AE06 /* Products */,
+				EAE7F90A9BF34783B59ED2ED /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +100,14 @@
 		355C76F316B81A8F0098AE06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				355F9AEC16B852BC00F84A9F /* MobileCoreServices.framework */,
+				355F9AEA16B852B700F84A9F /* SystemConfiguration.framework */,
+				355C772216B825310098AE06 /* CoreLocation.framework */,
+				355C772016B8252A0098AE06 /* MapKit.framework */,
 				355C76F416B81A8F0098AE06 /* UIKit.framework */,
 				355C76F616B81A900098AE06 /* Foundation.framework */,
 				355C76F816B81A900098AE06 /* CoreGraphics.framework */,
+				67E73861380D4B8492387B6D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,9 +115,19 @@
 		355C76FA16B81A900098AE06 /* BachesBA */ = {
 			isa = PBXGroup;
 			children = (
+				355C76FB16B81A900098AE06 /* Supporting Files */,
 				355C770316B81A900098AE06 /* AppDelegate.h */,
 				355C770416B81A900098AE06 /* AppDelegate.m */,
-				355C76FB16B81A900098AE06 /* Supporting Files */,
+				355C771C16B81B380098AE06 /* BacheMapViewController.h */,
+				355C771D16B81B380098AE06 /* BacheMapViewController.m */,
+				355C772416B829840098AE06 /* NAJSONRequestOperation.h */,
+				355C772516B829840098AE06 /* NAJSONRequestOperation.m */,
+				355C772716B830430098AE06 /* Bump.h */,
+				355C772816B830430098AE06 /* Bump.m */,
+				355F9AE716B8525C00F84A9F /* AddBumpFormViewController.h */,
+				355F9AE816B8525C00F84A9F /* AddBumpFormViewController.m */,
+				355F9AEE16B8546700F84A9F /* BachesBAClient.h */,
+				355F9AEF16B8546700F84A9F /* BachesBAClient.m */,
 			);
 			path = BachesBA;
 			sourceTree = "<group>";
@@ -109,6 +156,7 @@
 				355C76EC16B81A8F0098AE06 /* Sources */,
 				355C76ED16B81A8F0098AE06 /* Frameworks */,
 				355C76EE16B81A8F0098AE06 /* Resources */,
+				E82CF7292BE243B1A262A73D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +207,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E82CF7292BE243B1A262A73D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		355C76EC16B81A8F0098AE06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,6 +231,11 @@
 			files = (
 				355C770116B81A900098AE06 /* main.m in Sources */,
 				355C770516B81A900098AE06 /* AppDelegate.m in Sources */,
+				355C771E16B81B380098AE06 /* BacheMapViewController.m in Sources */,
+				355C772616B829840098AE06 /* NAJSONRequestOperation.m in Sources */,
+				355C772916B830430098AE06 /* Bump.m in Sources */,
+				355F9AE916B8525C00F84A9F /* AddBumpFormViewController.m in Sources */,
+				355F9AF016B8546700F84A9F /* BachesBAClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +305,7 @@
 		};
 		355C770F16B81A900098AE06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE7F90A9BF34783B59ED2ED /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BachesBA/BachesBA-Prefix.pch";
@@ -246,6 +317,7 @@
 		};
 		355C771016B81A900098AE06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE7F90A9BF34783B59ED2ED /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BachesBA/BachesBA-Prefix.pch";
@@ -274,6 +346,7 @@
 				355C771016B81A900098AE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
